@@ -9,8 +9,10 @@ New-Item folder_name -Type Directory
 # Remove
 
 - Files <br>
+rm file
 Remove-Item file
 - Folders <br>
+rmdir folder
 Remove-Item -path '.\folder' <br>
 Remove-Item folder -recurse
 
@@ -25,5 +27,6 @@ Rename-Item test_folder test_folder2
 
 - Files <br>
 Move-Item file_name folder1\folder2\new_file_name
+Move-Item file* folder\temp\
 - Folders <br>
 Move-Item test_file '.\some new folder\new_file_name'
