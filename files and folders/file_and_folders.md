@@ -1,17 +1,17 @@
 # Create
 
-- Files
+- Files <br>
 New-Item new_file_name
-- Folders
+- Folders <br>
 mkdir folder <br>
 New-Item folder_name -Type Directory
 
 # Remove
 
-- File <br>
+- Files <br>
 Remove-Item file
 - Folders <br>
-Remove-Item -path '.\folder'
+Remove-Item -path '.\folder' <br>
 Remove-Item folder -recurse
 
 # Rename
@@ -23,7 +23,7 @@ Rename-Item test_folder test_folder2
 
 # Move
 
--Files <br>
+- Files <br>
 Move-Item file_name folder1\folder2\new_file_name
 - Folders <br>
 Move-Item test_file '.\some new folder\new_file_name'
