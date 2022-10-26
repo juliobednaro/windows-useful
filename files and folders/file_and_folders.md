@@ -30,3 +30,8 @@ Move-Item file_name folder1\folder2\new_file_name
 Move-Item file* folder\temp\
 - Folders <br>
 Move-Item test_file '.\some new folder\new_file_name'
+
+# Get-FileHash
+
+- Files <br>
+Get-FileHash -Path file_name -Algorithm SHA256 
